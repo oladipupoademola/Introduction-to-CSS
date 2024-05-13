@@ -1,7 +1,73 @@
-li {
+* {
+    font-family: quicksand;
+}
+ul li {
     list-style: none;
     font-size: 30px;
     font-style: italic;
     color: purple;
     text-align: center;
+}
+ol li {
+    font-family: poppins, serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: quicksand, serif;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: tomato;
+    font-size: 50px;
+    transition: 0.5s ease-in;
+    
+}
+.Ademola{
+    color: brown;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Ademola:hover{
+    transition: 0.5s ease-in-out;
+}
+img {
+    width: 200px;
+}
+
+img:hover {
+    transition: 0.5s ease-in;
+}
+#Midfielder {
+    width: 300px;
+    
+}
+h3, p {
+color: red;
+text-align: right;
+border: 5px dashed green;
+border-radius: 10px;
+padding: 30px 60px;
+margin: 60px 80px;
+
+}
+.One, .Two, .Three {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.One {
+    background-color: red;
+}
+.Two {
+    background-color: yellow;
+ visibility: hidden;
+}
+.Three {
+    background-color: blue;
 }
